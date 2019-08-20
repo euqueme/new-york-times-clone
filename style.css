@@ -47,6 +47,22 @@ table {
   border-spacing: 0;
 }
 
+/* RESET END */
+
+
+
 nav {
-	position: fixed;
+  position: fixed;
+  height: 40px;
+  background-color: white;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
+
+.nav-icon{
+  height: 20px;
+}
+
