@@ -47,9 +47,11 @@ table {
   border-spacing: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /* RESET END */
-
-
 
 nav {
   position: fixed;
@@ -62,7 +64,50 @@ nav {
   padding: 10px;
 }
 
-.nav-icon{
+.nav-icon {
   height: 20px;
 }
+
+.red-border {
+  border: red solid 1px;
+}
+
+.position-relative {
+  position: relative;
+  display: inline-block;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.width50{
+	width = 50%;
+	margin: auto;
+}
+
+.width100{
+	width = 100%;
+	margin: auto;
+}
+
+.width80{
+	width = 80%;
+	margin: auto;
+}
+
+.width60{
+	width = 60%;
+	margin: auto;
+}
+
+.width25{
+	width = 25%;
+	right: 0;
+}
+
+#container{
+  padding-top: 40px;
+}
+
 
