@@ -53,6 +53,9 @@ table {
 
 /* RESET END */
 
+body{
+  background-color: white;
+}
 header {
   position: fixed;
   height: 40px;
@@ -144,10 +147,26 @@ aside {
   margin-top: 40px;
 }
 
-#article-img1{
+#div-article-img1{
   width: 140%;
-  float: right;
-  left: 20%;
+  margin-left: -20%;
+}
+
+.img1-text{
+  float: left;
+  width: 25%;
+  margin-top: 15%;
+  margin-left: 2px;
+}
+
+.small-text {
+  font-size: 8.5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: normal;
+}
+
+b {
+  font-weight: bold;
 }
 
 
