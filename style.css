@@ -60,7 +60,6 @@ header {
   right: 0;
   left: 0;
   top: 0;
-  margin-top: 10px;
 }
 
 nav {
@@ -93,50 +92,62 @@ nav {
   border: red solid 1px;
 }
 
-/*.position-relative {
+.position-relative {
   position: relative;
   display: inline-block;
-}*/
+}
 
 .position-absolute {
   position: absolute;
 }
 
-.width50{
-	width: 50%;
+.width75 {
+	width: 75%;
 	margin: auto;
 }
 
-.width100{
+.width100 {
 	width: 100%;
 	margin: auto;
 }
 
-.width80{
+.width80 {
 	width: 80%;
 	margin: auto;
 }
 
-.width60{
+.width60 {
 	width: 60%;
 	margin: auto;
 }
 
-.width25{
+.width25 {
 	width: 25%;
 	right: 0;
 }
 
-#container{
-  top: 40px;
+.float-right {
+  float: right;
+  position: relative;
+  left: 30%;
 }
 
-#header-link {
-  vertical-align: middle;
+form {
+  margin-top: -110%;
 }
 
-#nyt-logo{
-  height: 40px;
+aside {
+  margin-top: -75%;
+}
+
+#container {
+  margin-top: 40px;
+}
+
+#article-img1{
+  width: 140%;
+  float: right;
+  left: 20%;
 }
 
 
