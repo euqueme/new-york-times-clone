@@ -58,11 +58,11 @@ body{
 }
 header {
   position: fixed;
-  height: 40px;
   background-color: white;
   right: 0;
   left: 0;
   top: 0;
+  z-index: 99;
 }
 
 nav {
@@ -160,10 +160,27 @@ aside {
    padding: 0 2% 2% 2%;
 }
 
-.small-text {
-  font-size: 8.5px;
+.font-family {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   line-height: normal;
+}
+
+.small-text {
+  font-size: 8.5px;
+}
+
+.footer-text {
+  font-size: 8.5px;
+  color: gray;
+}
+
+.small-footer-text {
+  font-size: 6.5px;
+  color: lightgray;
+}
+
+.height40 {
+  height: 40px;
 }
 
 b {
@@ -189,3 +206,17 @@ b {
 #article-video {
   height: 300px;
 }
+
+#header-link{
+  line-height: 190%;
+}
+
+.main-title {
+  margin: 5% 15%;
+  max-width: 383.777px;
+  font-family: Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 100%;
+}
+
