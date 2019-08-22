@@ -87,6 +87,10 @@ nav {
   padding-right: 10px;
 }
 
+.pad10{
+  padding: 10px;
+}
+
 .nav-icon {
   height: 20px;
 }
@@ -124,6 +128,10 @@ nav {
 	margin: auto;
 }
 
+.width40{
+  width: 40%;
+}
+
 .width25 {
 	width: 25%;
 	right: 0;
@@ -132,7 +140,13 @@ nav {
 .float-right {
   float: right;
   position: relative;
-  left: 30%;
+  left: 10%;
+}
+
+.float-left {
+  float: left;
+  position: relative;
+  left: 0;
 }
 
 .margin-top10 {
@@ -176,22 +190,23 @@ aside {
 }
 
 .font-family {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   line-height: normal;
+  font-size: 16px;
 }
 
 .small-text {
-  font-size: 8.5px;
+  font-size: 10px;
 }
 
 .footer-text {
-  font-size: 8.5px;
+  font-size: 10px;
   color: gray;
   margin: 2px 0;
 }
 
 .small-footer-text {
-  font-size: 6.5px;
+  font-size: 8px;
   color: lightgray;
 }
 
@@ -236,3 +251,10 @@ b {
   line-height: 100%;
 }
 
+.submit-button {
+  background-color: rgb(98, 136, 165);
+  color: white;
+  border: rgb(50, 104, 145) solid 1px;
+  border-radius: 3px;
+  left: -5%;
+}
