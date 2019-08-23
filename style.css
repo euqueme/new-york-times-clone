@@ -272,10 +272,12 @@ aside {
   font-family: "Times New Roman", Times, serif;
   line-height: normal;
   font-size: 16px;
+  color: black;
 }
 
 .small-text {
   font-size: 10px;
+  color: black;
 }
 
 .footer-text {
@@ -319,6 +321,14 @@ b {
 
 #header-link {
   line-height: 190%;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: black;
+}
+
+a:link,
+a:visited {
+  font-style: normal;
 }
 
 .main-title {
@@ -336,4 +346,23 @@ b {
   border: rgb(50, 104, 145) solid 1px;
   border-radius: 3px;
   left: -5%;
+}
+
+footer {
+  width: 90%;
+}
+
+footer ul {
+  padding-right: 32px;
+}
+
+footer li {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 13px;
+  color: rgb(51,51,51);
+}
+
+footer li a {
+
 }
