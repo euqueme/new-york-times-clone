@@ -265,11 +265,19 @@ a:visited {
 }
 
 form {
-  margin-top: -150%;
+  margin-top: -350%;
 }
 
 aside {
-  margin-top: -110%;
+  margin-top: -300%;
+}
+
+.border-top-black {
+  border-top: black 1px solid;
+}
+
+.border-bottom-black {
+  border-bottom: black 1px solid;
 }
 
 #container {
