@@ -257,8 +257,8 @@ a:visited {
   margin-top: 6%;
 }
 
-.margin-bot10 {
-  margin-bottom: 4%;
+.margin-bot20 {
+  margin-bottom: 20px;
 }
 
 .left0 {
@@ -408,6 +408,12 @@ footer li a {
   padding-top: 5px;
   border-top: rgb(226, 226, 226) solid 1px;
   font-size: 8px;
+  font-weight: normal;
+}
+
+.popular-list li {
+  padding: 10px 0;
+  border-top: rgb(226, 226, 226) solid 1px;
   font-weight: normal;
 }
 
