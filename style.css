@@ -144,6 +144,7 @@ header {
   left: 0;
   top: 0;
   z-index: 99;
+  border-bottom: #e2e2e2 1px solid;
 }
 
 nav {
@@ -348,6 +349,18 @@ aside {
   line-height: 15px;
 }
 
+.cred-large {
+  font-size: 14px;
+  color: gray;
+}
+
+.cred-small {
+  font-size: 12px;
+  color: darkgrey;
+}
+
+
+
 .height40 {
   height: 40px;
 }
@@ -398,10 +411,14 @@ b {
   border: rgb(50, 104, 145) solid 1px;
   border-radius: 3px;
   left: -5%;
+  height: 35px;
+  font-family: Helvetica;
+  font-size: 10px;
+  font-weight: bold;
 }
 
 footer ul {
-  padding-right: 13%;
+  padding-right: 11%;
 }
 
 footer li {
@@ -459,4 +476,10 @@ footer li a {
   padding: 2px;
   border-top: rgb(226, 226, 226) solid 1px;
   margin-top: 4px;
+}
+
+aside h4 {
+  width: 50%;
+  margin-left: 5px;
+  font-size: 12px;
 }
