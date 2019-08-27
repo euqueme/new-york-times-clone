@@ -183,10 +183,6 @@ a:visited {
   height: 20px;
 }
 
-.red-border {
-  border: red solid 1px;
-}
-
 .position-relative {
   position: relative;
   display: inline-block;
@@ -267,10 +263,40 @@ a:visited {
 }
 
 .ul-icon {
-  width: 25px;
-  background-color: #f7f7f7;
-  border: #f7f7f7 7px solid;
+  width: 27px;
+  background-color: lightgrey;
+  border: lightgrey 2px solid;
   border-radius: 50%;
+}
+
+.ul-icon:hover {
+  width: 29px;
+  background-color: white;
+}
+
+.book-icon {
+  background-color: white;
+  border: none;
+  border-radius: none;
+  height: 20px;
+  margin-top: 5px;
+  width: 30px;
+}
+
+.book-icon:hover {
+  opacity: 0.5;
+}
+
+#ul-input {
+  background-color: white;
+  border: black 1px solid;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#ul-input:hover {
+  border: darkgrey 1px solid;
 }
 
 form {
@@ -321,7 +347,7 @@ aside {
 .img1-text {
   float: left;
   width: 25%;
-  margin-top: 15%;
+  margin-top: 18%;
   padding: 0 2% 2% 2%;
 }
 
@@ -359,8 +385,6 @@ aside {
   color: darkgrey;
 }
 
-
-
 .height40 {
   height: 40px;
 }
@@ -371,16 +395,17 @@ b {
 
 #img-footer {
   width: 8%;
-  margin-top: 5%;
+  top: 550px;
   height: 1px;
-  float: left;
+  left: 20px;
+  position: absolute;
   border-top: black solid 1px;
 }
 
 #img-footer-text {
   padding: 0;
-  margin-top: 7%;
-  margin-left: -8%;
+  margin-top: 4%;
+  margin-left: 20px;
   width: 100%;
   margin-bottom: 5%;
 }
@@ -394,6 +419,10 @@ b {
   font-family: Helvetica;
   font-weight: bold;
   color: black;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .main-title {
@@ -411,14 +440,18 @@ b {
   border: rgb(50, 104, 145) solid 1px;
   border-radius: 3px;
   left: -5%;
-  height: 35px;
+  height: 30px;
   font-family: Helvetica;
   font-size: 10px;
   font-weight: bold;
 }
 
+.submit-button:hover {
+  background-color: #326891;
+}
+
 footer ul {
-  padding-right: 11%;
+  padding-right: 9%;
 }
 
 footer li {
@@ -438,6 +471,11 @@ footer li a {
 
 .more-img-creds {
   text-align: right;
+}
+
+.more-img-txt:hover {
+  opacity: 0.5;
+  text-decoration: none;
 }
 
 .smaller-list {
@@ -481,5 +519,18 @@ footer li a {
 aside h4 {
   width: 50%;
   margin-left: 5px;
-  font-size: 12px;
+  font-size: 10px;
+}
+
+.font8 {
+  font-size: 8px;
+  color: black !important;
+  line-height: normal;
+}
+
+.aside-title {
+  padding: 5px 0;
+  margin: 10px 0;
+  border-bottom: rgb(226, 226, 226) solid 1px;
+  font-family: arial;
 }
