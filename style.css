@@ -170,6 +170,10 @@ footer a {
   font-size: 14px;
 }
 
+section li a {
+  font-weight: normal;
+}
+
 a:hover {
   text-decoration: underline;
 }
@@ -178,10 +182,6 @@ a:link,
 a:visited {
   text-decoration: none;
   color: inherit;
-}
-
-section li a {
-  font-weight: normal;
 }
 
 footer a:hover {
@@ -193,7 +193,7 @@ footer a:hover {
   transform: translateY(-50%);
 }
 
-.align-right{
+.align-right {
   text-align: right;
 }
 
