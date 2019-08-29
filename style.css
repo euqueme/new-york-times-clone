@@ -136,11 +136,15 @@ table {
 /* RESET END */
 
 header {
+  top : 0;
+}
+
+header,
+footer {
   position: fixed;
   background-color: white;
   right: 0;
   left: 0;
-  top: 0;
   z-index: 99;
   border-bottom: #e2e2e2 1px solid;
 }
@@ -150,7 +154,27 @@ nav {
   justify-content: space-around;
 }
 
-footer li a {
+footer{
+  bottom: 0;
+  border-bottom: none;
+  border-top: black 1px solid;
+  height: 60px;
+}
+
+#real-footer {
+  left: 0;
+  padding-bottom:15px;
+}
+
+footer a{
+  font-size: 14px;
+}
+
+footer a:hover{
+  text-decoration: none;
+}
+
+section li a {
   font-weight: normal;
 }
 
@@ -163,6 +187,10 @@ a:visited {
 .align-vert {
   top: 50%;
   transform: translateY(-50%);
+}
+
+.align-right{
+  text-align: right;
 }
 
 .div-center {
@@ -239,7 +267,6 @@ a:visited {
 
 .float-right {
   float: right;
-  left: 8%;
 }
 
 .float-left {
@@ -358,7 +385,7 @@ aside {
 }
 
 .font-family {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   line-height: normal;
   font-size: 16px;
   color: black;
@@ -423,7 +450,6 @@ b {
 #header-link {
   line-height: 190%;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
   color: black;
 }
 
@@ -434,7 +460,7 @@ a:hover {
 .main-title {
   margin: 5% 15%;
   max-width: 383.777px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
   font-size: 24px;
   line-height: 100%;
@@ -456,11 +482,11 @@ a:hover {
   background-color: #326891;
 }
 
-footer ul {
+section ul {
   padding-right: 9%;
 }
 
-footer li {
+section li {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   color: rgb(51, 51, 51);
