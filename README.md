@@ -16,7 +16,7 @@ This project is part of the Odin Project Curriculum "PROJECT: POSITIONING AND FL
 
 ## Live Version
 
-You can see it here (after merging with master):  https://majovainilla.github.io/new-york-times-clone/
+You can see it here:  https://majovainilla.github.io/new-york-times-clone/
 
 ## Built With
 
